@@ -15,7 +15,7 @@ const bricolageGrotesque = Bricolage_Grotesque({
 
 const UseCases = () => {
   return (
-    <div className="max-w-6xl mx-auto px-6 sm:px-8">
+    <div id="use-cases" className="max-w-6xl mx-auto px-6 sm:px-8 pt-20">
       <div className="mt-28 section-content relative flex flex-col justify-between gap-8">
         <div className="flex flex-col  text-center w-full items-center mb-5">
           <h2 className="mt-1 home bg-gradient-to-r from-[#7ED957] to-[#C9E265] font-bold text-transparent bg-clip-text text-[26px] sm:text-[40px]">

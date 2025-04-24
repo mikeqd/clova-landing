@@ -98,25 +98,25 @@ const HeaderOne = () => {
                   Home
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.joinclova.com/demo"
                   className="text-sm/6 font-medium text-white/70 hover:text-white"
                 >
                   Demo Video
                 </Link>
                 <Link
-                  href="#"
+                  href="#features-section"
                   className="text-sm/6 font-medium text-white/70 hover:text-white"
                 >
                   Features
                 </Link>
                 <Link
-                  href="#"
+                  href="#use-cases"
                   className="text-sm/6 font-medium text-white/70 hover:text-white"
                 >
                   Use Cases
                 </Link>
                 <Link
-                  href="#"
+                  href="#faq"
                   className="text-sm/6 font-medium text-white/70 hover:text-white"
                 >
                   FAQs
@@ -186,25 +186,25 @@ const HeaderOne = () => {
                   Home
                 </Link>
                 <Link
-                  href="#"
+                  href="https://www.joinclova.com/demo"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white/70 hover:bg-gray-50"
                 >
                   Demo Video
                 </Link>
                 <Link
-                  href="#"
+                  href="#features-section"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white/70 hover:bg-gray-50"
                 >
                   Features
                 </Link>
                 <Link
-                  href="#"
+                  href="#use-cases"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white/70 hover:bg-gray-50"
                 >
                   Use Cases
                 </Link>
                 <Link
-                  href="#"
+                  href="#faq"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white/70 hover:bg-gray-50"
                 >
                   FAQs

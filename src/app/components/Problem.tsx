@@ -13,7 +13,7 @@ const bricolageGrotesque = Bricolage_Grotesque({
 
 export default function Problem() {
   return (
-    <div className="max-w-6xl mx-auto px-6 sm:px-8">
+    <div id="problem" className="max-w-6xl mx-auto px-6 sm:px-8 pt-20">
       <div className="relative pb-0 -mt-10 w-full z-10"></div>
       <div className="mt-4 section-content relative flex flex-col md:flex-row justify-between gap-8 md:gap-16">
         <div className="flex flex-col text-center w-full mb-5">
