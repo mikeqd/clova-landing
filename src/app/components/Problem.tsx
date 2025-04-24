@@ -13,7 +13,7 @@ const bricolageGrotesque = Bricolage_Grotesque({
 
 export default function Problem() {
   return (
-    <div>
+    <div className="max-w-6xl mx-auto px-6 sm:px-8">
       <div className="relative pb-0 -mt-10 w-full z-10"></div>
       <div className="mt-4 section-content relative flex flex-col md:flex-row justify-between gap-8 md:gap-16">
         <div className="flex flex-col text-center w-full mb-5">
@@ -72,7 +72,7 @@ const Cards = () => {
             <div className="mt-4 pt-3 border-t border-[rgba(255,255,255,0.1)]">
               <p className="text-xs text-gray-400 flex items-start sm:items-center">
                 <span className="inline-block w-2 h-2 bg-[#7dd956] rounded-full mr-2"></span>
-                <span>
+                <span className="text-left">
                   Editors lose up to 40% of their time on manual organization.
                 </span>
               </p>
@@ -104,7 +104,7 @@ const Cards = () => {
             <div className="mt-4 pt-3 border-t border-[rgba(255,255,255,0.1)]">
               <p className="text-xs text-gray-400 flex items-start sm:items-center">
                 <span className="inline-block w-2 h-2 bg-[#7dd956] rounded-full mr-2"></span>
-                <span>
+                <span className="text-left">
                   Searching through unorganized footage can increase editing
                   time by 60%.
                 </span>
@@ -137,7 +137,7 @@ const Cards = () => {
             <div className="mt-4 pt-3 border-t border-[rgba(255,255,255,0.1)]">
               <p className="text-xs text-gray-400 flex items-start sm:items-center">
                 <span className="inline-block w-2 h-2 bg-[#7dd956] rounded-full mr-2"></span>
-                <span>
+                <span className="text-left">
                   Up to 30% of quality footage never makes it into the final
                   edit.
                 </span>
@@ -170,7 +170,7 @@ const Cards = () => {
             <div className="mt-4 pt-3 border-t border-[rgba(255,255,255,0.1)]">
               <p className="text-xs text-gray-400 flex items-start sm:items-center">
                 <span className="inline-block w-2 h-2 bg-[#7dd956] rounded-full mr-2"></span>
-                <span>
+                <span className="text-left">
                   Projects with 100+ clips become 3x harder to manage manually.
                 </span>
               </p>

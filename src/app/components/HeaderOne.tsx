@@ -50,9 +50,9 @@ const HeaderOne = () => {
             isScrolled ? "py-2" : "py-6"
           }`}
         >
-          <header className="border border-black/10 backdrop-blur-lg supports-[backdrop-filter]:bg-white/10 mx-auto flex h-fit max-w-5xl items-center justify-between rounded-[10px]">
+          <header className="border border-black/10 backdrop-blur-lg supports-[backdrop-filter]:bg-white/10 mx-auto flex h-fit max-w-6xl items-center justify-between rounded-[10px]">
             <nav
-              className="flex items-center justify-between p-2 lg:px-6 w-full"
+              className="flex items-center justify-between p-2 lg:px-6 w-full "
               aria-label="Global"
             >
               <div className="flex lg:flex-1">
@@ -124,9 +124,10 @@ const HeaderOne = () => {
               </div>
               <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                 <a
-                  href="#"
+                  href="https://clovaapp.com/"
                   className="text-sm/6 font-semibold text-gray-900 bg-[linear-gradient(90deg,_rgb(126,_217,_87)_0%,_rgb(201,_226,_101)_100%)]
     px-5 py-2 rounded-md"
+                  target="_blank"
                 >
                   Get Started
                 </a>
@@ -140,13 +141,13 @@ const HeaderOne = () => {
       <div
         role="dialog"
         aria-modal="true"
-        className={`fixed inset-0 z-50 bg-gray-800/50 bg-opacity-50 transition-opacity duration-300 ${
+        className={`fixed inset-0 z-50 bg-black/80 bg-opacity-50 transition-opacity duration-300 ${
           isMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
       >
         <div
           ref={menuRef}
-          className={`fixed inset-y-0 right-0 z-50 w-[70%] overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transform transition-transform duration-300 ${
+          className={`fixed inset-y-0 right-0 z-50 w-[70%] overflow-y-auto bg-[#0a0a0a] border-l border-[#262626] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transform transition-transform duration-300 ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
@@ -180,31 +181,31 @@ const HeaderOne = () => {
               <div className="space-y-2 py-6">
                 <Link
                   href="/"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white/70 hover:bg-gray-50"
                 >
                   Home
                 </Link>
                 <Link
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white/70 hover:bg-gray-50"
                 >
                   Demo Video
                 </Link>
                 <Link
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white/70 hover:bg-gray-50"
                 >
                   Features
                 </Link>
                 <Link
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white/70 hover:bg-gray-50"
                 >
                   Use Cases
                 </Link>
                 <Link
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-medium text-white/70 hover:bg-gray-50"
                 >
                   FAQs
                 </Link>

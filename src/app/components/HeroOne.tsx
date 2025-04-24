@@ -2,14 +2,16 @@
 
 import { Bricolage_Grotesque } from "next/font/google";
 import Image from "next/image";
+import Typewriter from "./Typewriter";
 
 const bricolageGrotesque = Bricolage_Grotesque({
   variable: "--font-bricolage-grotesque",
   subsets: ["latin"],
 });
 export default function HeroOne() {
+  const words = ["Files", "Footage", "Videos", "Shots", "Photos"];
   return (
-    <div className="relative bg-bgColor">
+    <div className="relative bg-bgColor px-8 sm:px-16">
       {/* SVG Background */}
       <div
         className="absolute inset-0 w-full h-full z-0 bg-no-repeat bg-cover bg-center"
@@ -17,7 +19,7 @@ export default function HeroOne() {
         aria-hidden="true"
       />
 
-      <div className="relative isolate px-6 pt-10 lg:px-8">
+      <div className="relative isolate pt-10">
         {/* BLOB BG 1 */}
         {/* <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -33,11 +35,13 @@ export default function HeroOne() {
         </div> */}
         <div className="mx-auto max-w-5xl py-28 sm:py-44 lg:py-52">
           <div className="text-center">
-            <div className="max-w-[800px] w-full mx-auto">
-              <h1 className="font-semibold text-balance text-gray-100 text-[32px] sm:text-6xl home text-center max-w-[340px] sm:max-w-[615px] mx-auto sm:leading-[64px] tracking-[-1.1px]">
+            <div className="max-w-[900px] w-full mx-auto">
+              <h1 className="font-semibold text-balance text-gray-100 text-[32px] sm:text-[56px] home text-center max-w-[340px] sm:max-w-[615px] mx-auto sm:leading-[64px] tracking-[-1.1px]">
                 <div className={bricolageGrotesque.className}>
-                  <span>Organize your Shots </span>
-                  <span>in Seconds, Not Hours</span>
+                  <p>
+                    Organize your <Typewriter words={words} />{" "}
+                  </p>
+                  <p>in Seconds, Not Hours</p>
                 </div>
               </h1>
               <p className="mt-4 text-base sm:text-[18px] sm:leading-[27px] font-medium text-center text-white/70">
@@ -47,7 +51,8 @@ export default function HeroOne() {
               </p>
               <div className="mt-8 flex items-center justify-center gap-x-6">
                 <a
-                  href="#"
+                  href="https://clovaapp.com/"
+                  target="_blank"
                   className="rounded-md bg-[linear-gradient(90deg,_rgb(126,_217,_87)_0%,_rgb(201,_226,_101)_100%)] px-3.5 py-2.5 font-semibold text-gray-900 shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get started

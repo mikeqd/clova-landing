@@ -18,19 +18,19 @@ const inter = Inter({
 export default function Home() {
   return (
     <div className={inter.className}>
-      <HeaderOne />
-      <div className="pt-0">
-        {" "}
-        {/* Add padding top to account for fixed header */}
-        <HeroOne />
-        <div className="max-w-[1024px] w-full mx-auto px-6 lg:px-0">
+      <div className="">
+        <HeaderOne />
+        {/* Add padding top here to push content below the header */}
+        {/* Adjust pt-16 sm:pt-20 based on your actual header height */}
+        <main className="">
+          <HeroOne />
           <Problem />
           <Solution />
           <UseCases />
           <FAQ />
           <BottomCTA />
           <Footer />
-        </div>
+        </main>{" "}
       </div>
     </div>
   );
