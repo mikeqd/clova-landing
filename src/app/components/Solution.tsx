@@ -19,7 +19,7 @@ const Solution = () => {
           <h2 className="mt-1 home bg-gradient-to-r from-[#7ED957] to-[#C9E265] font-bold text-transparent bg-clip-text text-[26px] sm:text-[40px]">
             <div className={bricolageGrotesque.className}>The Solution</div>
           </h2>
-          <p className="mt-4 tracking-[-0.64px]">
+          <p className="mt-4">
             Automate Footage Sorting & Find The{" "}
             <span className="text-green-100">Right Shots </span>
             in Just a<span className="text-green-100"> Few Clicks</span>

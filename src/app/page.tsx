@@ -1,7 +1,6 @@
 "use client";
 
 import HeroOne from "./components/HeroOne";
-import { Inter } from "next/font/google";
 import Problem from "./components/Problem";
 import Solution from "./components/Solution";
 import UseCases from "./components/UseCases";
@@ -10,14 +9,9 @@ import BottomCTA from "./components/BottomCTA";
 import Footer from "./components/Footer";
 import HeaderOne from "./components/HeaderOne";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
 export default function Home() {
   return (
-    <div className={inter.className}>
+    <div className="">
       <div className="">
         <HeaderOne />
         {/* Add padding top here to push content below the header */}
